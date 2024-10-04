@@ -7,7 +7,8 @@ use Illuminate\Http\Request;
 class HomeController extends Controller
 {
     public function index() {
-        $age = 10;
-        return view('home')->with('age', $age);
+        // $age = 10;
+        echo 'my only hope';
+        return view('home');
     }
 }

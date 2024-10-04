@@ -16,12 +16,12 @@ class CheckArticle
      */
     public function handle(Request $request, Closure $next)
     {
-        // echo 'check middleware';
-        if($request->age<10){
-            echo "age is below 10";
-            return redirect('/');
-        }
+        echo 'check middleware';
+        // if($request->age<10){
+            // echo "age is below 10";
+            // return redirect('/');
+        // }
 
-        return $next($request);
+        // return $next($request);
     }
 }

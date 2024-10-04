@@ -23,11 +23,12 @@ class Article extends JsonResource
         ];
     }
 
-    public function with($request)
+    public function with($request) //to add other staff with the data you can add anything you want
     {
         return [
             'version' => '1.0.0',
             'author_url' => url('http://paulinenalwanga.com'),
+            'year_of_publish' => '2024'
         ];
     }
 }

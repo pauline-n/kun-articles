@@ -20,4 +20,4 @@ Route::get('', function () {
 // Route::get('/{age}', function () {
 //     return view('welcome')->middleware('age');
 // });
-Route::get('/home', [HomeController::class, 'index'])->name('home');
+Route::get('/home', [HomeController::class, 'index']);
